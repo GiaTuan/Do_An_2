@@ -3,6 +3,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
 class SACH
 {
@@ -13,15 +14,19 @@ protected:
 	string NXB;
 	double price;
 	int type;
+	//virtual void print(ostream &fileout)const = 0;
 public:
+	SACH();
+	SACH(int loaiSach, string tenSach, string maSach, string tacGia, string nhaXuatBan, double giaSach);
 	virtual void nhapSach();
 	virtual void xuatSach();
-	string getBookName();
-	string getBookID();
-	string getAuthor();
-	string getNXB();
-	double getPrice();
-	int getLoaiSach();
-	virtual string getISBN();
+	string getBookName()const;
+	string getBookID()const;
+	string getAuthor()const;
+	string getNXB()const;
+	double getPrice()const;
+	int getLoaiSach()const;
+	virtual string getISBN()const;
+	friend ostream& operator<<(ostream& os, const SACH &book);
 };
 #endif

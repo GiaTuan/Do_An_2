@@ -1,4 +1,16 @@
 #include "SACH.h"
+SACH::SACH()
+{
+}
+SACH::SACH(int loaiSach, string tenSach, string maSach, string tacGia, string nhaXuatBan, double giaSach)
+{
+	this->type = loaiSach;
+	this->bookName = tenSach;
+	this->bookID = maSach;
+	this->author = tacGia;
+	this->NXB = nhaXuatBan;
+	this->price = giaSach;
+}
 
 void SACH::nhapSach()
 {
@@ -17,38 +29,45 @@ void SACH::nhapSach()
 }
 void SACH::xuatSach()
 {
-	cout << "Ten sach: " << this->bookName << endl;
-	cout << "Ma sach: " << this->bookID << endl;
-	cout << "Tac gia: " << this->author << endl;
-	cout << "Nha xuat ban: " << this->NXB << endl;
-	cout << "Gia sach: " << this->price << endl;
+	cout << "\tTen sach: " << this->bookName << endl;
+	cout << "\tMa sach: " << this->bookID << endl;
+	cout << "\tTac gia: " << this->author << endl;
+	cout << "\tNha xuat ban: " << this->NXB << endl;
+	cout << "\tGia sach: " << this->price << endl;
 }
 
-string SACH::getBookName()
+string SACH::getBookName()const
 {
 	return this->bookName;
 }
-string SACH::getBookID()
+string SACH::getBookID()const
 {
 	return this->bookID;
 }
-string SACH::getAuthor()
+string SACH::getAuthor()const
 {
 	return this->author;
 }
-string SACH::getNXB()
+string SACH::getNXB()const
 {
 	return this->NXB;
 }
-double SACH::getPrice()
+double SACH::getPrice()const
 {
 	return this->price;
 }
-int SACH::getLoaiSach()
+int SACH::getLoaiSach()const
 {
 	return this->type;
 }
-string SACH::getISBN()
+string SACH::getISBN()const
 {
-
+	return NULL;
 }
+
+
+//ostream& operator<<(ostream& os,const SACH &book)
+//{
+//	//book.print(os);
+//	return os;
+//}

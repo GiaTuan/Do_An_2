@@ -2,7 +2,9 @@
 #define __THUVIEN_H__
 #pragma once
 #include "SACHNGOAIVAN.h"
+#include "SACHTIENGVIET.h"
 #include <vector>
+#include <fstream>
 class THUVIEN
 {
 private:
@@ -11,7 +13,12 @@ private:
 public:
 	void nhapThuVien();
 	void xuatThuVien();
-	friend ostream& operator<<(ostream& outDev, const THUVIEN &library);
-
+	void save(int type);
+	void read();
+	void addBook();
+	void deleteBook();
+	void fixBook();
+	void findBook();
+	~THUVIEN();
 };
 #endif
