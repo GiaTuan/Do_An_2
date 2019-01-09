@@ -1,0 +1,8 @@
+1;Tung;Tung;Harry potter;NV1;1/1/2019
+1;Uyen;Uyen;toi thay hoa vang tren co xanh;VN2;1/1/2019
+1;Anh;Anh;the alchemist;NV2;9/1/2019
+1;Tuyen;Tuyen;khi hoi tho hoa thinh khong;VN1;12/12/2018
+2;Anh;Anh;the alchemist;NV2;4/5/2019
+2;Tung;Tung;Harry potter;NV1;20/1/2019
+2;Uyen;Uyen;toi thay hoa vang tren co xanh;VN2;3/3/2019
+2;Tuyen;Tuyen;khi hoi tho hoa thinh khong;VN1;12/2/2010

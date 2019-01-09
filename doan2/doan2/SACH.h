@@ -14,7 +14,6 @@ protected:
 	string NXB;
 	double price;
 	int type;
-	//virtual void print(ostream &fileout)const = 0;
 public:
 	SACH();
 	SACH(int loaiSach, string tenSach, string maSach, string tacGia, string nhaXuatBan, double giaSach);
@@ -27,6 +26,5 @@ public:
 	double getPrice()const;
 	int getLoaiSach()const;
 	virtual string getISBN()const;
-	friend ostream& operator<<(ostream& os, const SACH &book);
 };
 #endif

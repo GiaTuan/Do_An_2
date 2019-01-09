@@ -1,0 +1,5 @@
+1;Khi hoi tho hoa thinh khong;VN1;Paul Kalanithi;VN;10000
+2;Harry porter;NV1;J. K Rowling;VN;15000;1990922201
+1;Toi thay hoa vang tren co xanh;VN2;Nguyen Nhat Anh;VN;10000
+2;The alchemist;NV2;Paulo ceolho;VN;15000;1938438284
+1;Nha gia kim;VN1;Paulo ceolho;VN;10000

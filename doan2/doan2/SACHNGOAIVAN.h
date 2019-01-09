@@ -6,8 +6,6 @@ class SACHNGOAIVAN :public SACH
 {
 private:
 	string ISBN;
-protected:
-	//virtual void print(ostream& os)const;
 public:
 	SACHNGOAIVAN();
 	SACHNGOAIVAN(int loaiSach, string tenSach, string maSach, string tacGia, string nhaXuatBan, double giaSach, string maISBN);

@@ -26,14 +26,3 @@ string SACHNGOAIVAN::getISBN()const
 {
 	return this->ISBN;
 }
-//void SACHNGOAIVAN::print(ostream& os)const
-//{
-//	os << this->getType() << ";";
-//	os << this->getBookName() << ";";
-//	os << this->getBookID() << ";";
-//	os << this->getAuthor() << ";";
-//	os << this->getNXB() << ";";
-//	os << this->getPrice() << ";";
-//	os << this->getISBN();
-//	os << endl;
-//}

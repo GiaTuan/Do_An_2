@@ -64,10 +64,3 @@ string SACH::getISBN()const
 {
 	return NULL;
 }
-
-
-//ostream& operator<<(ostream& os,const SACH &book)
-//{
-//	//book.print(os);
-//	return os;
-//}
